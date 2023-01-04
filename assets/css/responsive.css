@@ -1,0 +1,342 @@
+@media all and (max-width: 1200px) {
+
+    .feature-section {
+        padding: 8rem 0;
+    }
+
+    .feature-content {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        display: -ms-grid;
+        display: grid;
+        -ms-grid-columns: 1fr 3rem 1fr;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 3rem
+    }
+
+    .single-feature.feature1 {
+        margin-top: 0px;
+        margin-left: 0px;
+    }
+
+    .single-feature.feature2 {
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+
+    .single-feature.feature3 {
+        margin-top: 0px;
+        margin-left: 0px;
+    }
+
+    .single-feature.feature4 {
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+
+    .feature-img {
+        padding-right: 0rem;
+    }
+
+    .single-feature {
+        height: auto;
+        padding: 3rem 2rem;
+    }
+
+    .contact-section {
+        padding: 0rem 0rem 3rem 0;
+    }
+
+
+    .footer-section {
+        padding: 7rem 0;
+    }
+
+}
+
+@media all and (max-width: 1140px) {
+    .service-area {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+
+    .service-area {
+        -webkit-box-align: start;
+        -ms-flex-align: start;
+        align-items: flex-start;
+    }
+
+    .service-left {
+        text-align: left;
+    }
+
+    .service-left p {
+        width: auto;
+    }
+
+    .system-img {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+    }
+
+    .system-text {
+        width: 100%;
+    }
+
+    .download-section {
+        padding-top: 5rem;
+    }
+
+    .service-section {
+        padding: 3rem 0;
+    }
+
+    .system-section {
+        background: #fafafc;
+        padding: 2rem 0;
+    }
+
+    .services {
+        margin-top: 7rem;
+    }
+}
+
+
+@media all and (min-width: 991px) {
+    .menu {
+        display: block !important;
+    }
+}
+
+@media all and (max-width: 991px) {
+
+    .menu {
+        display: none;
+        position: relative;
+    }
+
+    .menu-icon {
+        display: block;
+    }
+
+    .header-top {
+        display: inherit;
+    }
+
+    .logo {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+        margin-bottom: 2rem;
+    }
+
+    .menu ul li a {
+        font-size: 2rem;
+    }
+
+    .menu ul li {
+        margin-right: 0;
+        margin: 1rem 0;
+    }
+
+    .menu ul li a {
+        color: var(--color1);
+    }
+
+    .menu ul {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        background: #2f4249b8;
+        border: 1px solid white;
+        position: absolute;
+        width: 100%;
+    }
+
+    .feature-area {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+
+    .feature-img {
+        margin-bottom: 5rem;
+    }
+
+    .contact-input {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+
+    .contact-input input {
+        margin-bottom: 2rem;
+    }
+
+    .contact-input input {
+        margin-right: 0rem;
+    }
+
+    .download-area {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+
+    .download-area {
+        text-align: center;
+    }
+
+    .download-content h2 {
+        margin-top: 3rem;
+    }
+
+    .system-area {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+
+    .system-area {
+        -webkit-box-align: start;
+        -ms-flex-align: start;
+        align-items: flex-start;
+    }
+
+    .system-img {
+        margin-left: -2rem;
+    }
+}
+
+@media all and (max-width: 768px) {
+
+    .single-feature {
+        margin: 0px;
+    }
+
+    .single-service {
+        max-width: 83%;
+        margin: 2rem 0;
+    }
+
+    .feature-content {
+        -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    }
+
+    .copyright-area {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+
+    .copyright-area p {
+        color: var(--color1);
+        margin-bottom: 1.5rem;
+    }
+
+    .contact-input input {
+        width: 90%;
+    }
+}
+
+@media all and (max-width: 575px) {
+
+    .footer-area {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer-area h5 {
+        margin-bottom: .5rem;
+    }
+
+    .footer-area ul {
+        margin-bottom: 2rem;
+    }
+
+    .header-content h1 {
+        font-size: 3.5rem;
+        width: 100%;
+    }
+}
+
+@media all and (max-width: 450px) {
+
+    h2 {
+        font-size: 2.6rem;
+    }
+
+    .header-content h1 {
+        font-size: 2.5rem;
+        width: 100%;
+    }
+
+    .header-content p {
+        font-size: 1.3rem;
+    }
+
+    .buttons {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+
+    .primary-btn {
+        margin-right: 0rem;
+        margin-bottom: 2rem;
+    }
+
+    .primary-btn a,
+    .secondary-btn a {
+        font-size: 1.2rem;
+    }
+
+    .service-section {
+        padding: 6rem 0;
+    }
+
+    .download-content p,
+    .service-left p {
+        width: 100%;
+        font-size: 1.4rem;
+    }
+
+    .store-img {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+
+    .store-img img {
+        margin-right: 0;
+        margin-bottom: 2rem;
+    }
+
+    .download-btn a {
+        font-size: 1.5rem;
+    }
+
+    .social-icons ul li i {
+        margin-right: 1rem;
+    }
+}
