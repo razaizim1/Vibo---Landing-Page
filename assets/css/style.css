@@ -126,7 +126,7 @@ img {
 }
 
 .menu ul li a:hover {
-    color: var(--color3);
+    color: var(--color2);
 }
 
 .menu-icon i,

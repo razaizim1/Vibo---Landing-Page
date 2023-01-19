@@ -12,22 +12,8 @@ $(document).ready(function () {
     $(".menu").slideUp();
   });
 
-  $(".service1").click(function () {
-    $(".service-text1").slideToggle();
-    $(".single-service:nth-child(1)").toggleClass("add-class");
-  });
-  $(".service2").click(function () {
-    $(".service-text2").slideToggle();
-    $(".single-service:nth-child(2)").toggleClass("add-class");
-  });
-
-  $(".service4").click(function () {
-    $(".service-text4").slideToggle();
-    $(".single-service:nth-child(4)").toggleClass("add-class");
-  });
-
-  $(".service3").click(function () {
-    $(".service-text3").slideToggle();
-    $(".single-service:nth-child(3)").toggleClass("add-class");
+  $(".single-service").click(function () {
+    $(this).find('.single-service-right p').slideToggle();
+    $(this).toggleClass("add-class");
   });
 });
